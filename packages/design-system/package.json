@@ -1,0 +1,45 @@
+{
+  "name": "design-system",
+  "version": "0.0.0",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "^0.0.9",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
+    "config": "*",
+    "postcss": "^8.4.6",
+    "postcss-loader": "^6.2.1",
+    "tailwindcss": "^3.0.23",
+    "tsconfig": "*",
+    "typescript": "^4.5.3",
+    "webpack": "^5.69.1"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.5",
+    "classnames": "^2.3.1",
+    "heroicons": "^1.0.5"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "resolutions": {
+    "webpack": "^5"
+  }
+}
